@@ -14,7 +14,7 @@ int main()
 
     mediafinal = soma / 4;
     
-    cout << "\n a media final da nota é: " << mediafinal;
+    cout << "\n a media final da nota Ã©: " << mediafinal;
 
     return 0;
 
