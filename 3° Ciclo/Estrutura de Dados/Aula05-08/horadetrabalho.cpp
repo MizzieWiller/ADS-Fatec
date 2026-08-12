@@ -16,9 +16,9 @@ int main()
 	
 	salliquido = salbruto - inss;
 	
-	cout << "\n o valor do salário bruto é de: " << salbruto;
+	cout << "\n o valor do salÃ¡rio bruto Ã© de: " << salbruto;
 	
-	cout << "\n o valor do salário liquido é de: " << salliquido;
+	cout << "\n o valor do salÃ¡rio liquido Ã© de: " << salliquido;
 
 return 0;
 
