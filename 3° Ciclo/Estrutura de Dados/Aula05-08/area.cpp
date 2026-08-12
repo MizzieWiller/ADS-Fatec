@@ -12,5 +12,5 @@ int main()
 	
 	area = (base * altura) / 2;
 	
-	cout << "\n a area é de:" << area;
+	cout << "\n a area Ã© de:" << area;
 }
