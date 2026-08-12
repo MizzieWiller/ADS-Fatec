@@ -10,6 +10,6 @@ int main()
 	
 	celsius = ((fahrenheit -32) * 5) / 9;
 	
-	cout << "\n a temperatura em celsius é de:" << celsius;
+	cout << "\n a temperatura em celsius Ã© de:" << celsius;
 	
 }
