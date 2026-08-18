@@ -1,9 +1,9 @@
-Algoritmo "Temperatura"
+Algoritmo
 Var
-F, Celsius: real
+F, celsius: real
 Inicio
 escreval ("Informe a temperatura em Celsius")
-leia(Celsius)
+leia(celsius)
 F <- (1.8 * Celsius) + 32
 escreval ("Temperatura em graus Fahrenheit ", F)
 Fimalgoritmo
