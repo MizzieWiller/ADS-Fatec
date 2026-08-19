@@ -13,7 +13,7 @@ if (dia >= 1 && dia <= 7) {
 	} else if (dia == 2) {
 		cout << "\n Segunda-Feira" << endl;
 	} else if (dia == 3) {
-		cout << "\n Terça-Feira" << endl;
+		cout << "\n TerÃ§a-Feira" << endl;
 	} else if (dia == 4) {
 		cout << "\n Quarta-Feira" << endl;
 	} else if (dia == 5) {
@@ -21,11 +21,11 @@ if (dia >= 1 && dia <= 7) {
 	} else if (dia == 6) {
 		cout << "\n Sexta-Feira" << endl;
 	} else if (dia == 7) {
-		cout << "\n Sábado" << endl;
+		cout << "\n SÃ¡bado" << endl;
 	}
 	
 } else {
-	cout << "\n Esse número é inválido." << endl;
+	cout << "\n Esse nÃºmero Ã© invÃ¡lido." << endl;
 }	
 
 return 0;
