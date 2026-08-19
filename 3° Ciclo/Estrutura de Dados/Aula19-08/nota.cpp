@@ -9,9 +9,9 @@ int main()
 	
 	if (nota >= 1 && nota <= 10) {
 		if (nota >= 6) {
-			cout << "\n Tá aprovado parceiro!" << endl;				
+			cout << "\n TÃ¡ aprovado parceiro!" << endl;				
 		} else {
-			cout << "\n Tá reprovado rapa hahahaha!" << endl; 
+			cout << "\n TÃ¡ reprovado rapa hahahaha!" << endl; 
 		}
 	}
 	
