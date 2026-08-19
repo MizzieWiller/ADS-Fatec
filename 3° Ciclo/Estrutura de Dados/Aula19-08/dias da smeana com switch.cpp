@@ -7,7 +7,7 @@ int main()
 	
 	int diaSemana;
 	
-	cout << "\n Digite o número do dia da Semana (1-7): ";
+	cout << "\n Digite o nÃºmero do dia da Semana (1-7): ";
 	cin >> diaSemana;
 	
 	switch (diaSemana) {
@@ -18,7 +18,7 @@ int main()
 			cout << "\n Segunda-Feira" << endl;
 			break;
 		case 3:
-			cout << "\n Terça-Feira" << endl;
+			cout << "\n TerÃ§a-Feira" << endl;
 			break;
 		case 4:
 			cout << "\n Quarta-Feira" << endl;
@@ -30,10 +30,10 @@ int main()
 			cout << "\n Sexta-Feira" << endl;
 			break;
 		case 7:
-			cout << "\n Sábado" << endl;
+			cout << "\n SÃ¡bado" << endl;
 			break;
 		default:
-			cout << "\n Dia Inválido!" << endl;			
+			cout << "\n Dia InvÃ¡lido!" << endl;			
 	}
 	
 	return 0;
