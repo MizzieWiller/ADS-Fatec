@@ -8,12 +8,12 @@ int main()
 	
 	int disciplina;
 	
-	cout << "\n Digite um número que representa tua disciplina parça";
+	cout << "\n Digite um nÃºmero que representa tua disciplina parÃ§a";
 	cin >> disciplina;
 	
 	switch (disciplina) {
 		case 1:
-			cout << "\n Visão Computacional" << endl;
+			cout << "\n VisÃ£o Computacional" << endl;
 			break;
 		case 2:
 			cout << "\n Redes Neurais" << endl;
@@ -34,13 +34,13 @@ int main()
 			cout << "\n Qualidade de Dados" << endl;
 			break;
 		case 8:
-			cout << "\n Inteligência Artificial" << endl;
+			cout << "\n InteligÃªncia Artificial" << endl;
 			break;
 		case 9:
 			cout << "\n Realidade Aumentada" << endl;
 			break;
 		default:
-			cout << "\n Não tem essa disciplina mentiroso :O " << endl;
+			cout << "\n NÃ£o tem essa disciplina mentiroso :O " << endl;
 	}
 	
 	return 0;
