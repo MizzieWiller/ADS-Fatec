@@ -105,6 +105,14 @@ git --version
 
 ---
 
+# Atividade 2 - 
+
+![print repositótio clonado] (https://github.com/user-attachments/assets/d3c3d0c9-7557-4b2d-a43a-e4fa68c9ab15)
+
+
+
+---
+
 ## 📚 Referências
 
 * TANENBAUM, A. S.; BOS, H. **Sistemas Operacionais Modernos**. 4. ed. Pearson, 2016.
