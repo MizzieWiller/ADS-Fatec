@@ -6,7 +6,7 @@
 
 ---
 
-## Importância do Sistema Operacional (SO)
+## 💻 Importância do Sistema Operacional (SO)
 
 O Sistema Operacional atua como uma **camada de abstração** entre as aplicações do usuário e o hardware do sistema. 
 
@@ -29,7 +29,7 @@ Sem um SO, cada aplicação precisaria:
 
 ---
 
-## Modos de Execução
+## 🕹 Modos de Execução
 
 Para garantir a estabilidade e a segurança do sistema, o processamento é dividido em dois modos principais:
 
@@ -70,14 +70,14 @@ A maioria dos dispositivos modernos reutiliza e adapta sistemas operacionais exi
 
 ---
 
-## Atividades Práticas
+## 📌 Atividades Práticas
 
-### Atividade 01
+### 📌 Atividade 01
 * **Objetivo:** Descrever o processo de formatação e instalação de um SO com base no roteiro da disciplina.
 * **Formato:** Arquivo em Markdown.
 * **Requisitos:** Detalhar cada etapa, identificando quais componentes do SO estão envolvidos e por que são importantes naquele momento. Salvar no repositório da disciplina.
 
-### Atividade 02
+### 📌 Atividade 02
 * **Objetivo:** Pesquisar 5 Sistemas Operacionais desenvolvidos a partir de outro sistema base (kernel/arquitetura).
 * **Formato:** Arquivo em Markdown contendo uma tabela comparativa detalhando as diferenças entre o SO derivado e seu sistema base. Salvar no repositório.
 
@@ -85,7 +85,7 @@ A maioria dos dispositivos modernos reutiliza e adapta sistemas operacionais exi
 
 ## 📌 - Atividade 1 
 
-# Relatório de Formatação e Instalação de Sistema Operacional
+# 📃 Relatório de Formatação e Instalação de Sistema Operacional
 
 ## 1. Preparação da Mídia de Instalação e Configuração da BIOS/UEFI
 
@@ -147,7 +147,62 @@ A maioria dos dispositivos modernos reutiliza e adapta sistemas operacionais exi
 
 ---
 
-## Referências Bibliográficas
+## 📌 - Atividade 2
+
+# 📖 Pesquisa e Tabela Comparativa: Sistemas Operacionais Solicitados
+
+## 1. Visão Geral
+Muitos sistemas operacionais e firmwares utilizam estruturas, kernels ou arquiteturas pré-existentes para garantir compatibilidade, estabilidade ou reutilização de recursos de hardware.
+
+---
+
+## 2. Tabela Comparativa
+
+| SO Derivado | SO / Kernel / Base Originária | Foco do SO Derivado | Principais Diferenças e Adaptações em Relação à Base |
+| :--- | :--- | :--- | :--- |
+| **Raspberry Pi OS** | **Debian (Linux)** | Placas para educação, projetos de eletrônica e prototipagem. | Recompilado e otimizado para processadores com arquitetura ARM. Substitui o ambiente de trabalho padrão por uma interface leve (PIXEL) e inclui softwares educacionais pré-instalados. |
+| **Unix** | **MULTICS** | Computação multiusuário e multitarefa em computadores centrais (Mainframes). | O Unix simplificou os conceitos complexos e pesados do MULTICS, adotando uma arquitetura minimalista ("faça apenas uma coisa e faça bem"), sistemas de arquivos em árvore simples e linguagem C. |
+| **Linux** | **MINIX** | Núcleo de sistema operacional de código aberto para uso geral. | O MINIX era um sistema educacional de microkernel com código limitado. Linus Torvalds criou o Linux usando um kernel monolítico para alto desempenho e livre de restrições acadêmicas de licença. |
+| **Lakka** | **LibreELEC (Linux)** | Emulação de consoles de videogame antigos (Retrogaming). | Removeu o centro de mídias Kodi (foco do LibreELEC) e o substituiu pelo frontend RetroArch. Roda de forma ultraleve e direta a partir da memória RAM em dispositivos como PCs e placas ARM. |
+| **Game Boy Boot ROM** | **Arquitetura Sharp LR35902 (Z80)** | Inicialização de hardware e verificação do cartucho no Nintendo Game Boy. | Trata-se do micro-SO de inicialização (256 bytes). Executa a rolagem do logotipo "Nintendo", verifica o checksum do cartucho no hardware e desativa a si próprio para entregar o controle total ao jogo. |
+
+# 📃 Mini Resumo dos Sistemas Operacionais Escolhidos:
+
+**Raspberry Pi OS**
+É uma distribuição Linux oficial criada para os mini-computadores Raspberry Pi. Utiliza o **Debian** como base, mas foi recompilada e adaptada para rodar em processadores de arquitetura ARM de baixo consumo de energia. Traz a interface leve PIXEL (baseada em LXDE) e vem com ferramentas educacionais e de programação pré-instaladas.
+
+---
+
+**Unix**
+Criado no início dos anos 1970 nos laboratórios Bell, o Unix teve o **MULTICS** como sua principal inspiração conceitual. Seus criadores pegaram as ideias de multitarefa e multiusuário do MULTICS e as simplificaram drasticamente, adotando o princípio de ferramentas pequenas e modulares ("faça uma coisa e faça bem"), um sistema de arquivos hierárquico em árvore e o uso da linguagem C para garantir portabilidade entre diferentes hardwares.
+
+---
+
+**Linux**
+Lançado por Linus Torvalds em 1991, o Linux é um núcleo de sistema operacional de código aberto. Ele foi desenvolvido tendo o **MINIX** (um pequeno sistema operacional acadêmico do tipo Unix) como ambiente inicial de estudo e testes. Linus usou o MINIX para entender o funcionamento do processador e das chamadas de sistema, criando um kernel monolítico focado em alto desempenho e livre de restrições de licenças acadêmicas.
+
+---
+
+**Lakka**
+É um sistema operacional voltado para *retrogaming* que transforma pequenos computadores e placas ARM em consoles de jogos antigos. Ele usa o **LibreELEC** (uma distribuição Linux ultra-minimalista) como base. Em vez de carregar um ambiente de trabalho ou o media center Kodi, o Lakka inicializa diretamente na interface *RetroArch*, consumindo o mínimo de memória RAM e recursos da CPU para focar o desempenho na emulação dos jogos.
+
+---
+
+**Game Boy Boot ROM**
+Trata-se do micro-sistema de inicialização (firmware de apenas 256 bytes) gravado de fábrica no circuito do Nintendo Game Boy clássico. Ele funciona sobre a arquitetura do processador **Sharp LR35902** (derivado do Zilog Z80). Sua função exclusiva é inicializar o hardware do console, tocar o som característico de *boot*, exibir o logotipo da Nintendo deslizando pela tela e validar o *checksum* do cartucho inserido. Após essa verificação, ele se autodesativa da memória para dar controle total do hardware ao jogo.
+
+---
+
+## 3. Análise Técnica dos Componentes Envolvidos
+
+* **Drivers e Hardware:** Sistemas como o **Raspberry Pi OS** e **Lakka** utilizam os drivers do Kernel Linux para abstrair componentes de entrada e saída (controles, monitores e porta USB).
+* **Execução Direta em Hardware:** A **Game Boy Boot ROM** opera em nível mínimo de abstração, comunicando-se diretamente com os registradores do processador e enviando comandos puros aos chips de som e de vídeo do console.
+* **Kernel e Evolução:** A transição **MINIX -> Linux** e **MULTICS -> Unix** demonstra como a simplificação das chamadas de sistema e da gestão de memória permitiu o surgimento de sistemas mais eficientes e populares.
+
+
+---
+
+## 📚 Referências Bibliográficas
 
 1. **TANENBAUM, Andrew S.; BOS, Herbert.** *Sistemas Operacionais Modernos*. 4. ed. Pearson, 2016.
 2. **SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg.** *Fundamentos de Sistemas Operacionais*. 9. ed. LTC, 2015.
