@@ -18,7 +18,7 @@ Sem um SO, cada aplicação precisaria:
 
 ---
 
-## Componentes Principais do SO
+## ⚙ Componentes Principais do SO
 
 1. **Kernel (Núcleo):** O núcleo do sistema, responsável por gerenciar os recursos mais críticos do hardware.
 2. **Gerenciamento de Processos:** Responsável pelo controle e execução de programas.
@@ -39,7 +39,7 @@ Para garantir a estabilidade e a segurança do sistema, o processamento é divid
 
 ---
 
-## Conceitos de Processos e Threads
+## 🔩 Conceitos de Processos e Threads
 
 * **Programa:** Arquivo estático armazenado no disco.
 * **Processo:** Programa carregado em memória e em execução, possuindo seu próprio espaço de endereçamento, código, pilha (*stack*), registramenos e arquivos abertos.
@@ -52,14 +52,14 @@ Para garantir a estabilidade e a segurança do sistema, o processamento é divid
 
 ---
 
-## Sistema de Arquivos e Entrada/Saída
+## 🗂 Sistema de Arquivos e Entrada/Saída
 
 * **Sistema de Arquivos:** Organiza dados em uma estrutura hierárquica (diretório raiz -> pastas -> arquivos).
 * **Drivers de Dispositivo:** Abstraem a complexidade do hardware (ex.: teclado, mouse, disco, placas de rede, impressoras), permitindo uma comunicação padronizada com o SO.
 
 ---
 
-## Reaproveitamento da Estrutura de SOs
+## 🔧 Reaproveitamento da Estrutura de SOs
 
 A maioria dos dispositivos modernos reutiliza e adapta sistemas operacionais existentes em vez de desenvolvê-los do zero.
 
