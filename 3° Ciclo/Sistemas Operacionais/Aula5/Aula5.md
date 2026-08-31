@@ -78,7 +78,7 @@ O **Oracle VirtualBox** é um software de virtualização gratuito e open-source
 ## 📌 Atividade: 
 
 ---
-## 🔌 Manual de Virtualização - Lubuntu no VirtualBox
+# 🔌 Manual de Virtualização - Lubuntu no VirtualBox
 ---
 
 ## 6. 📚 Referências Bibliográficas
