@@ -76,43 +76,8 @@ O **Oracle VirtualBox** é um software de virtualização gratuito e open-source
 ---
 
 *fazer um resumo como um manuel!!*
-commit 1:
 
 ---
-
-# 🛠️ Guia Estruturado: Criação de Máquina Virtual no Oracle VirtualBox
-
-O **Oracle VirtualBox** é o "Centro de Comando" utilizado para criar e gerenciar as construções virtuais . Abaixo está o processo detalhado utilizando especificamente a interface e as ferramentas deste software.
-
-## 1. 🖥️ Conhecendo a Interface do Gerenciador
-Antes de criar a máquina, é importante entender onde as ações ocorrem no VirtualBox :
-* **Barra de Ferramentas (Topo):** Contém as ações globais imediatas, como os botões **Novo**, **Configurações** e **Iniciar** .
-* **Lista de Máquinas (Esquerda):** É o inventário de todas as suas máquinas virtuais, mostrando o estado atual de cada uma (ex: *Powered Off*, *Running*) .
-* **Painel de Detalhes (Direita):** Exibe a alocação exata de hardware (Sistema, Tela, Armazenamento) para a máquina selecionada na lista .
-
----
-
-## 2. ⚙️ Fase 1: A "Linha de Montagem" (Configuração da VM)
-Passos para forjar a nova VM usando o assistente do VirtualBox :
-
-- [x] **1. Novo:** Clique no ícone azul **"Nova"** na Barra de Ferramentas do topo .
-- [x] **2. Identidade:** 
-  * Defina um **Nome** descritivo e a **Pasta** de destino da VM .
-  * Indique o **Tipo** e a **Versão** do Sistema Operacional (ex: Microsoft Windows, Linux) .
-  * *Opcional:* Você já pode selecionar o arquivo de **Imagem ISO** (mídia de instalação) nesta etapa .
-- [x] **3. Otimização (Instalação Autônoma):** Um recurso poderoso do VirtualBox que pula telas de configuração tediosas. Você pode definir previamente usuário, senha e *hostname* para que o software instale o SO convidado automaticamente em segundo plano .
-- [x] **4. Memória RAM:** No painel de Sistema, defina a quantidade de memória (a recomendação é alocar 2048 MB ou mais, dependendo do SO) .
-- [x] **5. Disco Virtual:** Crie um disco virtual (VHD) estipulando um espaço em disco suficiente (geralmente entre 20 e 40 GB) .
-
----
-
-## 3. 🚀 Fase 2: Instalação do Sistema Operacional
-Com o "hardware" virtual criado, é hora de rodar o sistema :
-
-- [x] **1. Obter a Mídia:** Certifique-se de ter feito o download do arquivo de instalação (extensão `.iso`) do sistema desejado .
-- [x] **2. Montar a ISO (Armazenamento):** Caso não tenha inserido a ISO na etapa de Identidade, clique em **Configurações > Armazenamento** e adicione o arquivo ISO como um drive ótico virtual .
-- [x] **3. Iniciar a VM:** Selecione sua nova máquina na Lista de Máquinas (à esquerda) e clique na seta verde **"Iniciar"** na Barra de Ferramentas .
-- [x] **4. Instalação:** A máquina fará o *boot* pelo disco virtual inserido. A partir daqui, basta seguir o processo de instalação normal exigido pelo sistema operacional escolhido .
 
 ---
 
