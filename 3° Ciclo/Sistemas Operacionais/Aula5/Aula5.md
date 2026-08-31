@@ -1,4 +1,4 @@
-# 🎓 Resumo da Aula: Introdução à Virtualização
+# 🖥 Resumo da Aula: Introdução à Virtualização
 
 **Instituição:** Fatec - Faculdade de Tecnologia
 **Disciplina:** Sistemas Operacionais
