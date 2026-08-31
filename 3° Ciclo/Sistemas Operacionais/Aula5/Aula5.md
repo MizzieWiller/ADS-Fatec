@@ -8,7 +8,7 @@
 
 ## 1. 📘 Conceitos Fundamentais
 
-> **Virtualização:** Tecnologia que permite executar múltiplos sistemas operacionais simultaneamente em um único computador físico, criando ambientes isolados que simulam hardware real para testes seguros e consolidação de recursos .
+> _**Virtualização:** Tecnologia que permite executar múltiplos sistemas operacionais simultaneamente em um único computador físico, criando ambientes isolados que simulam hardware real para testes seguros e consolidação de recursos._
 
 ### Vantagens da Adoção
 | Vantagem | Descrição Prática  |
