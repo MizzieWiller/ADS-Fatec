@@ -65,9 +65,9 @@ O **Oracle VirtualBox** é um software de virtualização gratuito e open-source
 
 ---
 
-## 5. 📝 Atividade Prática e Avaliação
+## 📌 Atividades Práticas e Avaliação
 
-**Passo a passo da atividade :**
+**Passo a passo da atividade:**
 1. Instalar o Oracle VirtualBox em sua máquina física.
 2. Criar uma Máquina Virtual instalando um Linux de baixo consumo (Ex: *Tiny Core, Lubuntu, Xubuntu*).
 3. Validar e testar o sistema virtualizado.
