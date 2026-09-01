@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string> // biblioteca para ler caracteres que possuam espaços.
+#include <string> // biblioteca para ler caracteres que possuam espaÃ§os.
 using namespace std;
 int main()
 {
@@ -8,8 +8,8 @@ int main()
 	int quantidade;
 	float valorReais, taxaEuro, totalReais, totalEuros;
 	
-	cout << "\n Digite a descrição do Produto" << endl;
-	getline(cin, descricao); //Lê a frase inteira, mesmo que haja espaço.
+	cout << "\n Digite a descriÃ§Ã£o do Produto" << endl;
+	getline(cin, descricao); //LÃª a frase inteira, mesmo que haja espaÃ§o.
 	cout << "\n Digite a quantidade:" << endl;
 	cin >> quantidade;
 	cout << "\n Digite o valor em Reais" << endl;
