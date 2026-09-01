@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbli.h>
-#include <locale.h> // só pra lembrar.
+#include <locale.h> // sÃ³ pra lembrar.
 int main()
 {
 	setlocale(LC_ALL, "Portuguese");
@@ -11,7 +11,7 @@ int main()
    	scanf("%f", &jan);
    	printf("\n Digite o consumo de Fevereiro (kWh): ");
    	scanf("%f", &fev);
-   	printf("\n Digite o consumo de Março (kWh): ");
+   	printf("\n Digite o consumo de MarÃ§o (kWh): ");
    	scanf("%f", &mar);
 
    	totalAtual <- jan + fev + mar;
@@ -20,10 +20,10 @@ int main()
    	mediaComEconomia <- (mediaAtual * 20/100);
 
    	printf("Consumo Total: %.2f\n", totalAtual);
-   	printf("Consumo Médio: %.2f\n", mediaAtual);
+   	printf("Consumo MÃ©dio: %.2f\n", mediaAtual);
 
    	printf("--- CONSUMO COM 20% DE ECONOMIA ---");
    	printf("Novo Consumo Total: %.2f\n", totalComEconomia);
-   	printf("Novo Consumo Médio: %.2f\n", mediaComEconomia);
+   	printf("Novo Consumo MÃ©dio: %.2f\n", mediaComEconomia);
 	
 }
