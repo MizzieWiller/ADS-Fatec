@@ -74,11 +74,112 @@ O **Oracle VirtualBox** é um software de virtualização gratuito e open-source
 4. **Documentar** todo o processo na forma de um **Manual** e salvar no repositório da disciplina.
 
 ---
+# 🔌 Manual de Virtualização - Lubuntu no VirtualBox (Particionamento Manual)
+---
 
-## 📌 Atividade: 
+**🧠 Objetivo**
+
+Demonstrar a configuração e o particionamento manual de um disco virtual por meio da criação de uma máquina virtual rodando o sistema operacional Lubuntu, analisando seu funcionamento e relacionando com conceitos da disciplina de Sistemas Operacionais.
 
 ---
-# 🔌 Manual de Virtualização - Lubuntu no VirtualBox
+
+## 🛠️ Instalação do Ambiente
+
+---
+
+Para a realização da atividade, foram utilizadas as seguintes ferramentas:
+**Oracle VirtualBox:** software de virtualização
+**Arquivo ISO do Lubuntu**
+**Sistema operacional hospedeiro (Host):** Windows 10
+O VirtualBox foi escolhido por ser gratuito, multiplataforma, intuitivo e muito utilizado em ambientes educacionais.
+
+---
+
+## 💻 Criação da Máquina Virtual
+
+A máquina virtual foi criada seguindo os passos:
+
+1. **Abrir o VirtualBox e clicar em "Nova"**   
+  * Nome: Lubuntu-VM
+  * Tipo: Linux
+  * Versão: Ubuntu (64-bit)
+
+2. **Configurar memória RAM:**
+  * 2048 MB (suficiente para o sistema e para compensar a ausência de Swap)
+
+3. **Criar disco virtual:**
+  * Tipo: VDI
+  * Alocação dinâmica
+  * Tamanho: 16 GB
+
+---
+
+## 📀 Particionamento e Instalação do Lubuntu
+
+**O processo de instalação com particionamento manual ocorreu da seguinte forma:**
+ 
+  * Inicialização da máquina virtual com a ISO
+  * Seleção da opção "Particionamento manual"
+  * Criação de "Nova Tabela de Partições" do tipo MBR (modo BIOS)
+  * Configuração da partição principal: Uso de 100% do espaço livre (16 GB)
+  * Sistema de arquivos: ext4
+  * Ponto de montagem: / (raiz)
+  * Marcador: root
+  * Instalação do carregador de inicialização (GRUB) no disco inteiro (/dev/sda)
+  * Finalização da instalação e inicialização do sistema
+
+---
+
+## 🔍 Testes Realizados
+
+- Durante a execução da máquina virtual, foram realizados testes básicos:
+- Inicialização do sistema através do GRUB
+- Navegação pela interface gráfica leve (LXQt)
+- Acesso à estrutura de diretórios a partir da raiz
+- Execução de aplicativos básicos (bloco de notas, internet)
+O sistema apresentou funcionamento altamente estável e rápido, tirando proveito da característica leve da distribuição.
+
+---
+
+## ⚙️ Análise Técnica (Conceitos de SO)
+
+🔹 Tabela de Partições (MBR vs GPT)
+
+Foi utilizado o padrão MBR (Master Boot Record), estrutura clássica suportada por inicializações em modo BIOS, definindo como o disco de 16 GB está logicamente dividido.
+
+🔹 Memória Virtual (Swap) e Otimização
+
+A partição Swap atua como extensão da RAM no disco. Como o Lubuntu é um sistema de baixo consumo de recursos, e o disco virtual tem apenas 16 GB, optou-se por focar o armazenamento nos arquivos do sistema, dispensando o Swap sem comprometer a estabilidade.
+
+🔹 Sistema de Arquivos e Hierarquia
+
+Diferente do Windows, o Linux utiliza uma árvore de diretórios unificada. O ponto de montagem `/` (raiz) garante que todos os diretórios do SO sejam gravados nessa única partição estruturada em ext4.
+
+🔹 Bootloader
+
+O carregador de inicialização foi instalado diretamente no `/dev/sda` (MBR do disco físico virtual), permitindo que a BIOS encontre as instruções de boot sem depender de partições específicas.
+
+## 📊 Vantagens do Particionamento Manual Observadas
+
+Aproveitamento total do armazenamento de 16 GB
+Controle absoluto sobre a alocação e formato do sistema de arquivos
+Adequação perfeita da infraestrutura virtual à proposta leve do Lubuntu
+
+## ⚠️ Desafios Encontrados
+
+Tomada de decisão arquitetural sobre a ausência da partição Swap
+Atenção redobrada para não instalar o carregador de inicialização na partição errada (como /dev/sda1)
+
+## 🧾 Conclusão
+
+A instalação via particionamento manual exige um planejamento profundo dos recursos da máquina virtual.
+A utilização do Lubuntu aliado ao particionamento evidenciou:
+A importância da hierarquia de arquivos em sistemas baseados em Unix
+O impacto do gerenciamento de armazenamento e memória em sistemas leves
+O papel essencial do bootloader no processo de inicialização
+Essa prática reforça como a gestão de partições é essencial para o entendimento da arquitetura de Sistemas Operacionais.
+
+
 ---
 
 ## 6. 📚 Referências Bibliográficas
