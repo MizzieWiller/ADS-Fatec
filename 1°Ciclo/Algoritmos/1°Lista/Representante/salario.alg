@@ -1,4 +1,4 @@
-Algoritmo "Reajuste"
+Algoritmo "Reajuste de Salário"
 Var
 salario, salarioReajustado: real
 

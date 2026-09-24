@@ -1,4 +1,4 @@
-Algoritmo "Representantes"
+Algoritmo "Votos para Representantes"
 Var
 candidato1, candidato2 : caractere
 votos1, votos2, maior, diferenca : inteiro
