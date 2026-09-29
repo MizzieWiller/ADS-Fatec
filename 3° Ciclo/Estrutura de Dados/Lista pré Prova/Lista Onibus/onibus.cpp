@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "onibus.h" // Inclui as funções que criamos
+#include "onibus.h" 
 
 using namespace std;
 

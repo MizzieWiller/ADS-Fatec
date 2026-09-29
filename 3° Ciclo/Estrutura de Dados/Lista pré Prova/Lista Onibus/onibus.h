@@ -1,10 +1,8 @@
 #pragma once
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
-// Função para exibir a ocupação (opção 2)
 void exibirOcupacao(const vector<vector<int>>& matriz, int fileiras, int colunas, int lugares, int ocupados, float valorPassagem) {
     cout << "\n===== OCUPACAO =====\n";
     for (int i = 0; i < fileiras; i++) {
@@ -33,7 +31,6 @@ void exibirOcupacao(const vector<vector<int>>& matriz, int fileiras, int colunas
     cout.unsetf(ios::fixed);
 }
 
-// Função para vender passagem (opção 1)
 void venderPassagem(vector<vector<int>>& matriz, int fileiras, int colunas, int lugares, int& ocupados, float valorPassagem) {
     int fileira, poltrona;
 
@@ -51,16 +48,14 @@ void venderPassagem(vector<vector<int>>& matriz, int fileiras, int colunas, int 
     } 
     else {
         matriz[fileira - 1][poltrona - 1] = 8;
-        ocupados++; // Altera diretamente na memória por causa do & (referência)
+        ocupados++;
         
         cout << "Passagem vendida com sucesso!\n";
         
-        // Aproveitamos a função que já existe para imprimir o painel
         exibirOcupacao(matriz, fileiras, colunas, lugares, ocupados, valorPassagem);
     }
 }
 
-// Função para verificar se o ônibus pode partir (opção 3)
 void verificarPartida(int ocupados, float minimoPassagens) {
     cout << "\nPassagens vendidas: " << ocupados << "\n";
     
