@@ -12,13 +12,13 @@ leia(votos1)
 escreval("Escreva a quantidade de votos do segundo candidato")
 leia(votos2)
 
-se (votos1 > votos2)
-    maior = votos1
-    diferenca = votos1 - votos2
+se (votos1 > votos2) entao
+    maior <- votos1
+    diferenca <- votos1 - votos2
 senao
-    maior = votos2
-    diferenca = votos2 - votos1
+    maior <- votos2
+    diferenca <- votos2 - votos1
 
 escreval("O candidato que ganhou foi o candidato:", diferenca)
 fimse
-Fimalgortimo
+Fimalgoritmo
