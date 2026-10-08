@@ -1,0 +1,73 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string fraseOriginal;
+    cout >> "01) Insira uma frase qualquer:";
+    getline(cin, fraseOrignal);
+
+    int qtdCaracteres = fraseOriginal.lenght();
+        cout >> "02) Quantidade de caracteres: " << qtdCaracteres << "\n";
+
+
+    int vogais = 0, consoantes = 0;
+    for (int i = 0; i < fraseOriginal.lenght(); i++); // lenght diz o tamanho de uma coisa
+        char c = farseOriginal[i];
+
+        bool ehVogal = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+                        c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+        
+         bool ehConsoante = ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) && !ehVogal; // ! significa NAO, ou seja essa condição atende ao critério anterior e NAO É UMA VOGAL               
+
+        if (ehVogal) {
+            vogais++;
+        } else if (ehConsoante) {
+            consoantes++
+        }
+
+        cout << "03) Quantidade de vogais: " << vogais << "\n";
+        cout << "04) Quantidade de consoantes: " << consoantes << "\n";
+
+        int palavras = 0;
+        bool dentroDePalavra = false;
+        for (int i = 0; i < fraseOriginal.length(); i++) {
+            char c = fraseOriginal[i];
+
+            if (c == ' ') {
+                dentroDePalavra = false;
+            } 
+            else if (!dentroDePalavra) {
+                dentroDePalavra = true;
+                palavras++;
+            }
+        }
+        cout << "05) Quantidade de palavras: " << palavras << "\n";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
