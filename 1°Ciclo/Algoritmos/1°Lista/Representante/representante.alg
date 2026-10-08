@@ -21,3 +21,8 @@ Inicio
 
 fimse
 Fimalgoritmo
+
+//   se (votos1 > votos2) entao
+//      escreval("O candidato que ganhou foi: ", candidato1)
+//   senao
+//      escreval("O candidato que ganhou foi: ", candidato2)
