@@ -68,7 +68,11 @@ A proposta prática consiste em evoluir uma API desenvolvida em **Node.js** com 
 3. Acessar a aplicação na nuvem e comparar os resultados (variáveis de ambiente, porta, infraestrutura remota) com a execução na máquina local.
 4. **Desafio Adicional:** Escolher uma outra aplicação de hospedagem em nuvem semelhante ao Render, realizar o deploy da API nela e comparar as diferenças entre os servidores analisados.
 5. **Entrega Final:** Elaborar um **relatório comparativo** descrevendo todo o processo e as principais diferenças entre as ferramentas utilizadas, salvando a documentação (Manual) no repositório da disciplina.
+---
 
+ 🎵 Projeto desta Atividade: **Monitor em tema de Disco** https://github.com/MizzieWiller/SO-project
+
+> Comparação extra: além do deploy no Render (https://so-co8a.onrender.com/), executei o projeto na minha própria máquina e o publiquei em https://mizzie.nyx.dev.br/musica/, para acompanhar o hardware real de fora de casa. O relatório comparativo entre os dois ambientes está em [relatorio-comparativo.md](https://github.com/MizzieWiller/ADS-Fatec/blob/main/3°%20Ciclo/Sistemas%20Operacionais/Aula7/Tarefa7/relatorio-comparativo.md).
 ---
 
 ## 📚 Referências Bibliográficas
