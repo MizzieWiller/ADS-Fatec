@@ -1,0 +1,16 @@
+{
+  "name": "miau-links",
+  "version": "1.0.0",
+  "description": "Encurtador de links com tema de gatinho (Netlify Functions + Netlify Blobs).",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
